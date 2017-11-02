@@ -2,7 +2,7 @@ App.controller('home', function (page) {
 
 //從local storage抓資料存到 choice_list 變數裡。若無，產生2個。
 
-	let choice_list = ['1', '2'];
+	let choice_list = ['做', '不做'];
 
 	//先清除所有
 	$(page)
